@@ -1,9 +1,8 @@
 import React from 'react';
-
-
 import TiraPeliculas from './components/TiraPeliculas';
 import ContenedorPublicidad from './components/ContenedorPublicidad';
 import Contador from './components/Contador';
+import Gif from './components/Gif';
 
 function App() {
   return (
@@ -13,6 +12,7 @@ function App() {
       </header>
 
       <main>
+        <Gif />
         <ContenedorPublicidad>
           <h2>Wooow! Publicidad!</h2>
         </ContenedorPublicidad>
